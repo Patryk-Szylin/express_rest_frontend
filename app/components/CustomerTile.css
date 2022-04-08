@@ -1,0 +1,42 @@
+.customer-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.customer__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    box-shadow: 0 1px 10px rgb(166 206 227 / 40%);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.customer__item-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.customer__title-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.customer__status {
+    font-size: 0.75rem;
+}
+.customer__status.active {
+    color: green;
+}
+.customer__status.inactive {
+    color: red;
+}
+.customer__info-container {
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+.customer__info-phone {
+    font-size: 0.7rem;
+    font-weight: normal;
+}
